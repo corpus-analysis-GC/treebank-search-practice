@@ -12,17 +12,17 @@ query string where indicated, and then execute it.
 
 Your mission, should you choose to accept it, is to find all instances of
 
-1.  the word "Duke"
-2.  the word "the" or "The": use `|` for disjunction
-3.  noun phrases (tag "NP")
-4.  noun phrases headed by a determiner (tag "NP" immediately dominating D")
-5.  definite noun phrases headed by the definite determiner "the"/"The"; use
+1.  the word *Duke*
+2.  the word *the* or *The*: use `|` for disjunction
+3.  noun phrases (tag `NP`)
+4.  noun phrases headed by a determiner (tag `NP` immediately dominating `D`)
+5.  definite noun phrases headed by the definite determiner `the`/`The`; use
     parentheses for grouping/precedence
-6.  matrix clauses (tag "IP-MAT")
+6.  matrix clauses (tag `IP-MAT`)
 7.  matrix clauses headed by a verb in the preterite ("simple past"; tag
-    "IP-MAT" immediately dominating "VBD")
+    `IP-MAT` immediately dominating `VBD`)
 8.  matrix clauses headed by a verb in the preterite which take a PP complement
-    (tag "IP-MAT" immediately dominating "VBD" and "PP" sisters in any order)
+    (tag `IP-MAT` immediately dominating `VBD` and `PP` sisters in any order)
 
 Bonus: can you think of other English definite determiners and use it to expand
 the scope of (5)?
@@ -32,8 +32,8 @@ To do this, edit and then execute [`harness.py`](harness.py).
 # Notes
 
 The Penn Treebank data used in the homework uses different tags, e.g., it uses
-"NN" instead of "N" and "DT" instead of "D"; it also uses "deeper" trees (e.g.,
-it has a "VP" node containing the verb and its complements). **When in doubt,
+`NN` instead of `N` and `DT` instead of `D`; it also uses "deeper" trees (e.g.,
+it has a `VP` node containing the verb and its complements). **When in doubt,
 just read the data file.**
 
 Please do not circulate the attached data beyond this class, as it is not
