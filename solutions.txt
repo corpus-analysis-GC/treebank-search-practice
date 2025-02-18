@@ -1,0 +1,8 @@
+1. `Duke`
+2. `The | the`
+3. `NP`
+4. `NP < D` 
+5. `NP < (D < (The | the))`
+6. `IP-MAT`
+7. `IP-MAT < VBD`
+8. `IP-MAT < (VBD $ PP)`

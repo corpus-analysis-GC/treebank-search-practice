@@ -38,3 +38,7 @@ just read the data file.**
 
 Please do not circulate the attached data beyond this class, as it is not
 licensed for this.
+
+# Solutions
+
+[`solutions.txt`](solutions.txt) contains the solutions.
